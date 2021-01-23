@@ -155,23 +155,15 @@ body{
     justify-content: space-between;
 }
 
-.mockups > .mockups-margin{
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.mockups > .mockups-margin > .Elements { 
+.mockups > .Elements { 
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 200px;
     width: 320px;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
-.mockups > .mockups-margin > .Elements:hover { 
+.mockups > .Elements:hover { 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -179,7 +171,7 @@ body{
 
 }
 
-.mockups > .mockups-margin > .Elements > .ElementsContent { 
+.mockups > .Elements > .ElementsContent { 
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -188,12 +180,12 @@ body{
     font-weight: lighter;
 }
 
-.mockups > .mockups-margin > .Elements > .ElementsLogo{
+.mockups > .Elements > .ElementsLogo{
     font-size: 3em;
     margin-top: 10px;
 }
 
-.mockups > .mockups-margin > .Elements > .ElementsLogo:hover{
+.mockups > .Elements > .ElementsLogo:hover{
     color: rgb(140, 0, 255);
 }
 
