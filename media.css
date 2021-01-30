@@ -28,9 +28,11 @@
     }
 
     .mockups > .mockups-margin > .Elements {
-        width :320px;
+        width : 100%;
         display: flex;
         flex-direction: column;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 
     .skills {
