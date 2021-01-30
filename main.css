@@ -179,6 +179,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 320px;
+    /* border : 2px solid greenyellow; */
     box-shadow: 5px 5px 5px rgb(140, 0, 255);
 
 }
