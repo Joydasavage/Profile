@@ -28,7 +28,7 @@
     }
 
     .mockups > .mockups-margin > .Elements {
-        width :100%;
+        width :320px;
         display: flex;
         flex-direction: column;
     }
