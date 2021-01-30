@@ -18,12 +18,16 @@
     }
     
     .mockups{
+        height: 100%;
+    }
+
+    .mockups > .mockups-margin {
         flex-direction: column;
         height: 100%;
         align-items: center;
     }
 
-    .mockups > .Elements {
+    .mockups > .mockups-margin > .Elements {
         width :100%;
         display: flex;
         flex-direction: column;

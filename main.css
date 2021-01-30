@@ -144,26 +144,38 @@ body{
 
 .mockups{
     display: flex;
-    height: 200px;
     background-image: linear-gradient(to right,black, purple);
-    color: #ffffff;
-    font-family: 'Josefin Sans', sans-serif;
-    padding-left: 5%;
-    padding-right: 5%;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    justify-content: space-between;
+    align-items: center;
 }
 
-.mockups > .Elements { 
+.mockups > .mockups-margin{
+    display: flex;
+    height: 200px;
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    /* padding-left: 200px;
+    padding-right: 200px; */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1100px;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px solid greenyellow; */
+}
+
+.mockups > .mockups-margin > .Elements { 
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 200px;
     width: 320px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
-.mockups > .Elements:hover { 
+.mockups > .mockups-margin > .Elements:hover { 
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,7 +183,7 @@ body{
 
 }
 
-.mockups > .Elements > .ElementsContent { 
+.mockups > .mockups-margin > .Elements > .ElementsContent { 
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -180,12 +192,12 @@ body{
     font-weight: lighter;
 }
 
-.mockups > .Elements > .ElementsLogo{
+.mockups > .mockups-margin > .Elements > .ElementsLogo{
     font-size: 3em;
     margin-top: 10px;
 }
 
-.mockups > .Elements > .ElementsLogo:hover{
+.mockups > .mockups-margin > .Elements > .ElementsLogo:hover{
     color: rgb(140, 0, 255);
 }
 
