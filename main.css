@@ -295,3 +295,114 @@ body{
     display: none;
 }
 
+/* .grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    grid-gap: 10px;
+    border: 1px solid greenyellow;
+} */
+
+/* .grid-container > .grid-coloumn{
+    text-align:center;
+    border: 2px solid greenyellow;
+} */
+
+/* .grid-container > .grid-coloumn > .grid-Logo {
+    font-size: 2rem;
+    color: purple;
+} */
+
+/* .grid-container > .grid-coloumn > .grid-Content{
+    font-family: 'Josefin Sans', sans-serif;
+    grid-template-columns: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+} */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer > .footer-container{
+    display: flex;
+    background-image: linear-gradient(to right,black, purple);
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+}
+
+.footer > .footer-container > .Footer-Elements{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 700px; */
+    /* border: 2px solid greenyellow; */
+}
+
+.footer > .footer-container > .Footer-Elements:hover{
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(140, 0, 255);
+}
+
+.footer > .Logo-Container{
+    display: flex;
+    background-image: linear-gradient(to right,black, purple);
+}
+
+.footer > .Logo-Container > .Footer-Logos{
+    display: flex;
+    width: 400px;
+    /* border: 2px solid greenyellow; */
+    font-size: 1.5rem;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer > .Logo-Container > .Footer-Logos i:hover{
+    display: flex;
+    /* border: 2px solid greenyellow; */
+    font-size: 1.5rem;
+    justify-content: space-between;
+    color: rgb(140, 0, 255);
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer > .Footer-Logos > .Footer-logo{
+    display: flex;
+}
+
+.footer > .Footer-CopyRight{
+    display: flex;
+    background-image: linear-gradient(to right,black, purple);
+    color: white;
+    align-items: center;
+}
+
+.footer > .Footer-CopyRight h5{
+   text-align: center;
+   font-family: 'Josefin Sans', sans-serif;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.footer > .Footer-CopyRight h5:hover{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    color:rgb(140, 0, 255);
+ }
+
+
